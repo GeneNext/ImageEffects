@@ -60,7 +60,7 @@
 
 		outputColor = lerp(grayScale, outputColor, _BloomSaturation) * _BloomColor;
 
-		return outputColor;
+		return saturate(outputColor);
 	}
  
 	v2f_bloom vert_bloom(appdata_img v)

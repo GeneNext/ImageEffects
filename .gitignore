@@ -11,3 +11,17 @@
 /ImageEffects/Library
 /ImageEffects/Logs
 /ImageEffects/obj
+/.vs
+/Library
+/Logs
+/obj
+/Packages
+/Temp
+/Assembly-CSharp.csproj
+/ImageEffects.csproj
+/ImageEffects.sln
+/Unity.Analytics.DataPrivacy.csproj
+/Unity.CollabProxy.Editor.csproj
+/Unity.PackageManagerUI.Editor.csproj
+/Unity.TextMeshPro.csproj
+/Unity.TextMeshPro.Editor.csproj
