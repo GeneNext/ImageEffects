@@ -52,7 +52,7 @@ public class BloomEffect : GaussianBlurEffect
         int textureWidth = (int)(source.width * m_blurResolution + 0.5f);
         int textureHeight = (int)(source.height * m_blurResolution + 0.5f);
 
-        RenderTexture blurTexture = RenderTexture.GetTemporary(textureWidth, textureHeight, 0, source.format);
+        RenderTexture blurTexture = CreateTexture(textureWidth, textureHeight, 0, source.format);
 
 
         Mat.SetVector(ShaderPropertyID.BloomColor, m_bloomColor);

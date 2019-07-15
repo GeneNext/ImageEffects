@@ -281,9 +281,9 @@ MonoBehaviour:
   m_blurResolution: 0.5
   m_blurRange: 7.62
   m_blurIteration: 3
-  m_bloomThreshold: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
+  m_bloomThreshold: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   m_bloomColor: {r: 1, g: 1, b: 1, a: 1}
-  m_bloomSaturation: 1.65
+  m_bloomSaturation: 2
   m_bloomIntensity: 3.11
 --- !u!1 &575457067
 GameObject:

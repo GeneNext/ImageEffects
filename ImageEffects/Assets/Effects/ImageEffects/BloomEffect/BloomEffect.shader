@@ -80,8 +80,8 @@
 	{
 		float4 main = tex2D(_MainTex, i.uv1);
 		float4 blur = tex2D(_BlurTex, i.uv);
-		//float4 final = 1 - (1 - main) * (1 - blur);
-		float4 final = main + blur;
+		float4 final = 1 - (1 - main) * (1 - blur);
+		//float4 final = main + blur;
 		
 		return final;
 	}
