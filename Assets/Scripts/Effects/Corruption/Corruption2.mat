@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Corruption2
+  m_Shader: {fileID: 4800000, guid: 7e61895b0b25d644484182db38bb2e03, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CorruptionTex:
+        m_Texture: {fileID: 2800000, guid: ac6b0e3abe3294b438bceead8344d4c5, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: a663b984f9a21c84480b6ccbf9516e82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FalloffTex:
+        m_Texture: {fileID: 2800000, guid: f7e96904e8667e1439548f0f86389447, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 773366e6dc2fb3143b9c3467672ad3fa, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 32eebde300ec9d442b9d22e77379e425, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 2800000, guid: bdbe94d7623ec3940947b62544306f1c, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflect:
+        m_Texture: {fileID: 8900000, guid: e842223bc31d70446bcda34d75264d2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TwinkleTex:
+        m_Texture: {fileID: 2800000, guid: 52343a7aa2200f645b75ddbe60fa8a05, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _ColorCutoff: 0.2
+    - _CorruptionCutoff: 0.2
+    - _CutDistance: -0.76
+    - _Cutoff: 0.5
+    - _CutoffRange: 7.88
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FalloffRange: 0.2
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineFactor: 1.62
+    - _OutlineRange: 5.45
+    - _Parallax: 0.02
+    - _ReflectFactor: 1.3
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TwinkleFactor: 9.171148
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CorruptionColor: {r: 0.38235295, g: 0.38235295, b: 0.38235295, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 0.641, a: 1}
+    - _StartPos: {r: 40.492058, g: 20.753204, b: 66.14002, a: 0}
+    - _TargetPos: {r: 40.49206, g: 20.7532, b: 66.14, a: 0}
+    - _TwinkleColor: {r: 0.809, g: 0.278, b: 0.578, a: 1}
